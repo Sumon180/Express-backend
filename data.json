@@ -1,0 +1,34 @@
+{
+  "contact_id": "xvnGLEjJ9RBKdxt8UKMN",
+  "first_name": "Khadya",
+  "last_name": "Smith",
+  "full_name": "Khadya Smith",
+  "email": "email-placeholder-for-1490097811@mailplaceholder.com",
+  "phone": "+1490097811",
+  "tags": "",
+  "date_created": "2023-03-22T18:11:13.855Z",
+  "full_address": "",
+  "contact_type": "lead",
+  "opportunity_name": "Khadya Smith",
+  "status": "open",
+  "lead_value": "0",
+  "pipleline_stage": "Outreach Sent (No Response)",
+  "pipeline_id": "NYUNXW91aZCHlgYRNuXB",
+  "id": "u6OZBFpatdeE0GaZbbJA",
+  "pipeline_name": "Wholesaler Pipeline",
+  "location": {
+    "name": "Asetla",
+    "address": "9236 Earl Fife Dr",
+    "city": "Elk Grove",
+    "state": "CA",
+    "country": "US",
+    "postalCode": "95624",
+    "fullAddress": "9236 Earl Fife Dr, Elk Grove CA 95624",
+    "id": "fbrbBj0mOoWtkb4DdXJD"
+  },
+  "workflow": {
+    "id": "b5cd13e4-fe23-416a-b1cd-c571829af4e5",
+    "name": "Bar Chart For Dashboard"
+  },
+  "customData": {}
+}
