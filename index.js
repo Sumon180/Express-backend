@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
-import userRouter from "./routes/userRoute.js";
+import axios from "axios";
+import contactRoutes from "./routes/contactRoutes.js";
 
 const app = express();
 const PORT = 3000;
@@ -9,10 +10,18 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-// Define your routes here
-app.use("/", userRouter);
+// In-memory data store
+let contacts = [];
+
+// Create an Axios instance
+const axiosInstance = axios.create({
+  baseURL: "http://localhost:3000",
+});
+
+// Pass the Axios instance to the route handlers
+app.use("/contacts", contactRoutes(axiosInstance, contacts));
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server listening to http://localhost:${PORT}`);
+  console.log(`Server listening on port http://localhost:${PORT}`);
 });
